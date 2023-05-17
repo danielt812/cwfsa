@@ -1,0 +1,24 @@
+// Flex Mixins
+@mixin flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+@mixin iconClickable {
+	stroke: $Black;
+	&:hover {
+		cursor: pointer;
+		transition: all 0.1s ease-out;
+		transform: translateY(-3px);
+	}
+	&:active {
+		cursor: pointer;
+		transition: all 0.1s ease-in;
+		transform: translateY(2px);
+	}
+}

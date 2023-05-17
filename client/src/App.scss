@@ -1,0 +1,19 @@
+@import './components/scss/mixins';
+@import './components/scss/variables';
+
+.profileSVG,
+.starSVG {
+  @include iconClickable;
+}
+
+.profileSVG {
+  &:hover {
+    fill: $Black;
+  }
+}
+
+.starSVG {
+  &:hover {
+    fill: $Yellow
+  }
+}

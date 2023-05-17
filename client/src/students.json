@@ -1,0 +1,41 @@
+[
+	{
+		"id": 1,
+		"firstName": "a",
+		"lastName": "T",
+		"favorite": false,
+		"comments": [
+			{
+				"timestamp": "08/12/1991",
+				"tag": "",
+				"comment": ""
+			}
+		]
+	},
+	{
+		"id": 2,
+		"firstName": "b",
+		"lastName": "J",
+		"favorite": false,
+		"comments": [
+			{
+				"timestamp": "01/04/1991",
+				"tag": "",
+				"comment": ""
+			}
+		]
+	},
+	{
+		"id": 3,
+		"firstName": "c",
+		"lastName": "H",
+		"favorite": true,
+		"comments": [
+			{
+				"timestamp": "06/06/1991",
+				"tag": "",
+				"comment": ""
+			}
+		]
+	}
+]
